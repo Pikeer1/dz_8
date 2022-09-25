@@ -41,12 +41,6 @@ for (int i = 0; i < array.GetLength(0); i++)
 Console.WriteLine("Произведение матриц: ");
 PrintArray (finalArray);
 
-int ReadInt(string output)
-{
-    Console.Write(output);
-    return Convert.ToInt32(Console.ReadLine());
-}
-
 void CreateArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
